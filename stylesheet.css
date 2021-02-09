@@ -1,0 +1,815 @@
+html{
+    scroll-behavior: auto;
+
+}
+body{
+    background-color: rgb(224, 111, 111);
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.tittle{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border: 1px solid steelblue;
+    
+}
+#img{
+    height: 150px;
+    position: absolute;
+    left: 10%;
+}
+.rainbow-text{
+    text-align: center;
+    color: steelblue;
+    text-shadow: 2px 2px black;
+}
+#img1{
+    height: 150px;
+    position: absolute;
+    left: 80%;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid steelblue;
+}
+nav ul{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    float: right;
+    
+}
+nav li{
+    float: left;
+}
+nav ul li a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    
+    text-decoration: none;
+    color: steelblue;
+    /*text-transform: uppercase;
+    */
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: rgba(232, 232, 243, 0.418);
+    color: rgb(17, 17, 19); 
+}
+#section1{
+    background-image: url('https://i.postimg.cc/L6q8Rrw5/wp4004539-indian-air-force-wallpapers.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+    
+    animation: slider 9s infinite linear;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(199, 197, 218);  
+}
+@keyframes slider{
+    0%{ background-image: url('https://i.postimg.cc/SxwZ3h44/wp4004512-indian-air-force-wallpapers.jpg'); }
+    
+    35%{ background-image: url('https://i.postimg.cc/YqXYyKgS/wp4004529-indian-air-force-wallpapers.jpg'); }
+    75%{ background-image: url('https://i.postimg.cc/L6q8Rrw5/wp4004539-indian-air-force-wallpapers.jpg'); }
+}
+
+#section3{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
+    background-size: 50%;
+    background-position: right; 
+    margin: 0;
+
+}
+
+
+.drdo{
+    width: 42%;
+    height: 96%;
+    background:rgb(96, 124, 154, .7);
+    background-position: left;
+    background-size: 50%;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border-top: 8px solid rgb(224, 111, 111);
+ }
+ h1{
+    text-shadow: 4px 2px maroon;
+     color: black;
+ 
+ }
+ p{
+     font-style: italic;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+ }
+
+.services{
+    background:rgb(199, 197, 218);
+    
+}
+#section4{
+    display: inline-block;
+    width: 100%;
+    color:rgb(32, 32, 109);
+    height: 50vh;
+}
+.services .contest{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+   
+}
+.services .contest .servicesbx{
+    padding: 30px 10px;
+    background: white;
+    color:rgb(9, 65, 87);
+    max-width: 340px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 300px;
+    filter: drop-shadow(8px 8px 10px gray);
+    position: relative;
+    bottom: 100px;
+    
+}
+.services .contest .servicesbx:hover{
+    background-color: white;
+    transform: translate(0, -20px);
+}
+
+h6{
+    text-shadow: 2px 1px black;
+    color: rgb(7, 57, 97);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+
+}
+.services .contest .con p{
+    color: rgb(9, 65, 87);
+    text-decoration: none;
+}
+.services .contest .con a{
+    color: rgb(9, 65, 87);
+    text-decoration: none;
+    font-style: bold;
+    
+    
+}
+#section2{
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.about{
+   width: 50%;
+   background:rgb(96, 124, 154, .7);
+   color: black;
+   text-align: center;
+   padding: 50px;
+   position: absolute;
+   top: 1900px;
+ 
+   left: 50%;
+   transform: translate(-50%, 50%);
+}
+h4{
+    text-shadow: 2px 1px black;
+    color: rgb(224, 111, 111);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+p{
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}   
+
+
+
+
+
+#section5{
+    display: inline-block;
+    height: 110vh;
+    width: 100%;
+    background: url("https://i.postimg.cc/xdv2QkSH/m6-Bh-REu-minimalist-wallpapers.jpg")no-repeat;
+    background-size: cover;
+}
+
+
+.center{
+    overflow: hidden;
+    position: relative;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400px;
+    background: rgb(96, 124, 154, .7);
+    border-radius: 10px;
+
+}
+
+.center h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid siver;
+    text-shadow: 5px 5px rgb(9, 65, 87);
+    color: white; 
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seril;
+
+}
+
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(32, 32, 109);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(255, 253, 253,0.6);
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(32, 32, 109);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(255, 253, 253,0.6);
+   
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(32, 32, 109);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    
+    color: rgb(32, 32, 109);
+  }
+  .signup{
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: 0;
+      background-color: rgb(32, 32, 109);   
+      
+      border: none;
+      margin: 8px 0;
+      cursor: pointer;
+      padding: 10px 18px;
+      color: whitesmoke;
+      font-size: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+      
+  }
+  .signup_up a{
+    padding: 10px;
+    width: 80px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    /*text-transform: uppercase;
+    */
+    font-weight: bold;
+}
+  
+  
+ .signup:hover{
+      background-color: white;
+      color: rgb(32, 32, 109);
+  }
+  h3{
+      font-size: 25px;
+      text-shadow: 5px 5px rgb(32, 32, 109); 
+      color: white; 
+      margin-left: 105px;
+      margin-top: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+  }
+
+ #social-menu ul{
+     position: reative;
+     top: 50%;
+     left: 50%;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     /*transform: translate(-50%, 50%);
+     */
+      
+}
+#social-menu ul li{
+    list-style: none;
+    margin: 0 5px;
+    margin-left: 60px;
+}
+#social-menu ul li .fa{
+    font-size: 20px;
+    line-height: 20px;
+    transition: .8s;
+    color: #32506d;
+
+}
+#social-menu ul li a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    
+    text-decoration: none;
+    color: steelblue;
+    /*text-transform: uppercase;
+    */
+    font-weight: bold;
+}
+
+#social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 0x;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px #32506d;
+
+}
+#social-menu ul li a:hover{
+    transform: translate(0, -10px);
+}
+#social-menu ul li:nth-child(1) a:hover{
+    background-color: black;
+    color: #00aced;
+   
+}
+#social-menu ul li:nth-child(2) a:hover{
+    background: black;
+    color: #3b5998;
+    
+}
+#social-menu ul li:nth-child(3) a:hover{
+    background-color: black;
+    color: #ff0084;
+}
+
+
+/* ------FOR PHONE VERSION----------*/
+
+
+
+
+
+
+@media (max-width: 700px){
+    .tittle{
+        background-color: white;
+        width: 428px;
+        height: 150px;
+        border: 1px solid steelblue;
+        
+    }
+    img{
+        height: 150px;
+        position: absolute;
+        left: 10%;
+        display: none;
+    }
+    
+    .rainbow-text{
+        text-align: center;
+        color: steelblue;
+        text-shadow: 1px 1px black;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 2px;
+        margin-left: auto;
+    }
+    img{
+        height: 150px;
+        position: absolute;
+        left: 10%;
+        display: none;
+    }
+    
+    nav{
+        background-color: black;
+        overflow: hidden;
+        top: 0px;
+        width: 428px;
+        height: 50px;
+        border: 1px solid steelblue;
+    }
+    nav ul{
+        padding: 0px;
+        margin: 0;
+        list-style: none;
+        float: none;
+       
+    }
+    nav ul li a{
+        padding: 23px;
+        width: 35px;
+      /*  display: flex;
+        */
+        text-decoration: none;
+        color: steelblue;
+        /*text-transform: uppercase;
+        */
+       
+        font-size: small;
+    }
+    ul li a:hover{
+        background-color: rgba(232, 232, 243, 0.418);
+        color: rgb(17, 17, 19); 
+    }
+    #section1{
+        background-image: url('https://i.postimg.cc/L6q8Rrw5/wp4004539-indian-air-force-wallpapers.jpg');
+        background-size: 100% 100%;
+        width: 429px;
+        height: 400px;
+        
+        animation: slider 9s infinite linear;
+        border-style: solid;
+        border-width: 1px;
+        border-color:rgb(199, 197, 218);  
+    }
+    @keyframes slider{
+        0%{ background-image: url('https://i.postimg.cc/SxwZ3h44/wp4004512-indian-air-force-wallpapers.jpg'); }
+        
+        35%{ background-image: url('https://i.postimg.cc/YqXYyKgS/wp4004529-indian-air-force-wallpapers.jpg'); }
+        75%{ background-image: url('https://i.postimg.cc/L6q8Rrw5/wp4004539-indian-air-force-wallpapers.jpg'); }
+    }
+    
+    #section3{
+        display: inline-block;
+        height: 402px;
+        width: 430px;
+        background: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
+        background-size: 100% 100%;
+        margin: 0;    
+    }
+    .drdo{
+        width: 427px;
+        height: 100%;
+        margin-top: 0px;
+        color: black;
+        text-align: center;
+        padding: 2px;
+        padding-top: 0%;
+       
+     }
+     h1{
+        text-shadow: 4px 2px maroon;
+        color: black;
+     
+     }
+     .para1 p{
+         font-style: italic;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-align: center;
+     }
+
+
+    
+    .services{
+        background:rgb(199, 197, 218);
+        width: 431px;
+        
+    }
+    #section4{
+        display: inline-block;
+        width: 100%;
+        color:rgb(32, 32, 109);
+        height: 50vh;
+    }
+    .services .contest{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+       
+    }
+    .services .contest .servicesbx{
+        padding: 30px 10px;
+        background: white;
+        color:rgb(9, 65, 87);
+        width: 340px;
+        margin: 10px;
+        text-align: center;
+        transition: 0.5s;
+        border-radius: 10px;
+        width: 300px;
+        filter: drop-shadow(8px 8px 10px gray);
+        position: relative;
+        bottom: 100px;
+        
+    }
+    .services .contest .servicesbx:hover{
+        background-color: white;
+        transform: translate(0, -20px);
+    }
+    
+    h6{
+        text-shadow: 2px 1px black;
+        color: rgb(7, 57, 97);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        position: relative;
+        text-align: center;
+        top: 5px;
+    
+    }
+    .services .contest .con p{
+        color: rgb(9, 65, 87);
+        text-decoration: none;
+    }
+    .services .contest .con a{
+        color: rgb(9, 65, 87);
+        text-decoration: none;
+        font-style: bold;
+        
+        
+    }
+    #section2{
+        display: inline-block;
+        height: 100vh;
+        width: 431px;
+        background: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
+        background-size: cover;
+        background-position: center;
+     
+    }
+    .about{
+       width: 416px;
+       background:rgb(96, 124, 154, .7);
+       color: black;
+       padding: 5px;
+       margin-left: 2px;
+       margin-right: 2px;
+       position: relative;
+       /*top: 1900px;
+       */
+       top: 20px;
+       transform: translate(-50%, 50%);
+       
+
+    }
+    h4{
+        text-shadow: 2px 1px black;
+        color: rgb(224, 111, 111);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .para p{
+        font-style: italic;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: auto;
+    }   
+    
+    
+    
+    
+    
+    #section5{
+        display: inline-block;
+        height: 130vh;
+        width: 431px;
+        background: url("https://i.postimg.cc/xdv2QkSH/m6-Bh-REu-minimalist-wallpapers.jpg")no-repeat;
+        background-size: cover;
+        background-position: 0%;
+    }
+    
+    
+    .center{
+        overflow: hidden;
+        padding-top: 0%;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        width: 400px;
+        background: rgb(96, 124, 154, .8);
+        border-radius: 10px;
+    
+    }
+    
+    .center h2{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid siver;
+        text-shadow: 5px 5px rgb(9, 65, 87);
+        color: white; 
+        font-size: xx-large;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seril;
+    
+    }
+    
+    
+    .center form{
+        padding: 0 40px;
+        box-sizing: border-box;
+        height: 300px;
+    }
+    
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(32, 32, 109);
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: rgb(255, 253, 253,0.6);
+      }
+      input[type=password], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(32, 32, 109);
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: rgb(255, 253, 253,0.6);
+       
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: rgb(32, 32, 109);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      
+      input[type=submit]:hover {
+        background-color: white;
+        
+        color: rgb(32, 32, 109);
+      }
+      .signup{
+          box-sizing: border-box;
+          border-radius: 4px;
+          margin: 0;
+          background-color: rgb(32, 32, 109);   
+          
+          border: none;
+          margin: 8px 0;
+          cursor: pointer;
+          padding: 10px 18px;
+          color: whitesmoke;
+          font-size: 15px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+          
+      }
+      .signup_up a{
+        padding: 10px;
+        width: 80px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        /*text-transform: uppercase;
+        */
+        font-weight: bold;
+    }
+      
+      
+     .signup:hover{
+          background-color: white;
+          color: rgb(32, 32, 109);
+      }
+      h3{
+          font-size: 25px;
+          text-shadow: 5px 5px rgb(32, 32, 109); 
+          color: white; 
+          position: absolute;
+          top: 3600px;
+
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+      }
+    
+     #social-menu ul{
+         position: absolute;
+         top: 3700px;
+         left: 30%;
+         /*right: 50%;
+         */
+         padding: 0;
+         margin: 0;
+         /*display: flex;
+         /*transform: translate(-50%, 50%);
+         */
+          
+    }
+    #social-menu ul li{
+        list-style: none;
+    
+        margin: 0 5px;
+        /*margin-left: 60px;
+        */
+    }
+    #social-menu ul li .fa{
+        font-size: 20px;
+        line-height: 20px;
+        transition: .8s;
+        color: #32506d;
+    
+    }
+    #social-menu ul li a{
+        padding: 15px;
+        width: 100px;
+        display: block;
+        
+        text-decoration: none;
+        color: steelblue;
+        /*text-transform: uppercase;
+        */
+        font-weight: bold;
+    }
+    
+    #social-menu ul li a{
+        position: relative;
+        display: block;
+        width: 20px;
+        height: 0x;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: .6s;
+        box-shadow: 0 5px 4px #32506d;
+    
+    }
+    #social-menu ul li a:hover{
+        transform: translate(0, -10px);
+    }
+    #social-menu ul li:nth-child(1) a:hover{
+        background-color: black;
+        color: #00aced;
+       
+    }
+    #social-menu ul li:nth-child(2) a:hover{
+        background: black;
+        color: #3b5998;
+        
+    }
+    #social-menu ul li:nth-child(3) a:hover{
+        background-color: black;
+        color: #ff0084;
+    }
+    
+    
+    
+}    
+   
