@@ -405,6 +405,9 @@ input[type=text], select {
 
 
 @media (max-width: 700px){
+    body{
+        height: 4000px;
+    }
     .tittle{
         background-color: white;
         width: 100%;
