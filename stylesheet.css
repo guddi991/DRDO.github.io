@@ -582,7 +582,7 @@ input[type=text], select {
     }
     #section2{
         display: inline-block;
-        height: 100vh;
+        height: auto;
         width: 100%;
         background: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
         background-size: cover;
@@ -590,7 +590,7 @@ input[type=text], select {
      
     }
     .about{
-       width: 100%;
+       width: auto;
        background:rgb(96, 124, 154, .7);
        color: black;
        padding: 5px;
