@@ -745,8 +745,8 @@ input[type=text], select {
       }
     
      #social-menu ul{
-         position: relative;
-         top: 50px;
+         position: absolute;
+         top: 1950px;
          left: 30%;
          /*right: 50%;
          */
