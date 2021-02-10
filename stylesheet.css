@@ -494,7 +494,7 @@ input[type=text], select {
         height: 402px;
         width: 100%;
         background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
-       
+        background-color: rgb(96, 124, 154, .7)
         margin: 0;      
     }
     #section3{
