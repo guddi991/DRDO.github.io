@@ -582,22 +582,20 @@ input[type=text], select {
     }
     #section2{
         display: inline-block;
-        height: 310vh;
+        height: auto;
         width: auto;
-        background: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
-        background-size: cover;
-        background-position: center;
-     
+        background-image: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
+       
     }
     #section2{
         background-image: none;
     }
     .about{
        width: auto;
-       height: 160px;
+       height: auto;
        background:rgb(96, 124, 154, .7);
        color: black;
-       padding: 5px;
+       padding: 2px;
      
        position: relative;
        /*top: 1900px;
