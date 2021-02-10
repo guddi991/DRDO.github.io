@@ -586,7 +586,7 @@ input[type=text], select {
         height: 0%;
         width: 0%;
         background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
-        
+        background-color: black;
         margin: 0;      
     }
     #section2{
@@ -595,6 +595,7 @@ input[type=text], select {
         visibility: hidden;
         width: 0%;
         height: 0%;
+        display: none;
     }
     .about{
         width: 0%;
