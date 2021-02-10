@@ -491,7 +491,7 @@ input[type=text], select {
     
     #section3{
         display: inline-block;
-        height: 402px;
+        height: auto;
         width: 100%;
         background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
         background-color: rgb(96, 124, 154, .7)
