@@ -494,7 +494,7 @@ input[type=text], select {
     }
     #section3{
         background-image: none;
-        background-color: steelblue;
+        background-color: none;
     }
     .drdo{
         width: 100%;
