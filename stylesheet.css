@@ -595,6 +595,7 @@ input[type=text], select {
     #section2{
         background-image: none;
         background-color: steelblue;
+        visibility: hidden;
     }
     .about{
         width: auto;
