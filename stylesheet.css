@@ -621,7 +621,7 @@ input[type=text], select {
         height: 110vh;
         width: 100%;
         background: url("https://i.postimg.cc/xdv2QkSH/m6-Bh-REu-minimalist-wallpapers.jpg")no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: 0%;
     }
     
