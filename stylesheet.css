@@ -591,6 +591,7 @@ input[type=text], select {
     }
     .about{
        width: auto;
+       height: 190px;
        background:rgb(96, 124, 154, .7);
        color: black;
        padding: 5px;
