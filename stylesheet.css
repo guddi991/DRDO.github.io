@@ -580,6 +580,7 @@ input[type=text], select {
         
         
     }
+    /*
     #section2{
         display: inline-block;
         height: auto;
@@ -601,7 +602,7 @@ input[type=text], select {
        position: absolute;
        top: 1400px; 
        /*top: 1900px;
-       */
+      
        
       
 
@@ -621,7 +622,41 @@ input[type=text], select {
     }   
     
     
-    
+    */
+     #section2{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
+       
+        margin: 0;      
+    }
+    #section2{
+        background-image: none;
+        background-color: steelblue;
+    }
+    .about{
+        width: auto;
+        height: 100%;
+        margin-top: 0px;
+        color: black;
+        text-align: center;
+        padding: 2px;
+        padding-top: 0%;
+        background-color: steelblue;
+       
+     }
+     h1{
+        text-shadow: 4px 2px maroon;
+        color: black;
+     
+     }
+     .para1 p{
+         font-style: italic;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+     }
+
     
     
     #section5{
