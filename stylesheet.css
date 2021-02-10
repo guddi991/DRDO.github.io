@@ -584,11 +584,11 @@ input[type=text], select {
         
     }
      #section2{
-        display: inline-block;
+        display: none;
         height: 0%;
         width: 0%;
         background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
-       
+        
         margin: 0;      
     }
     #section2{
@@ -607,6 +607,7 @@ input[type=text], select {
         padding-top: 0%;
         background-color: steelblue;
         visibility: hidden;
+        display: none;
        
      }
      .about h1{
