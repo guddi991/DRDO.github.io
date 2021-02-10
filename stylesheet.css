@@ -407,7 +407,7 @@ input[type=text], select {
 @media (max-width: 700px){
     
     body{
-        background-color: rgb(96, 124, 154, .7);
+        background-color: rgb(73, 88, 122);
     }
     
     .tittle{
