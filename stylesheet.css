@@ -439,7 +439,7 @@ input[type=text], select {
         background-color: black;
         overflow: hidden;
         top: 0px;
-        width: 428px;
+        width: 100%;
         height: 50px;
         border: 1px solid steelblue;
     }
@@ -469,7 +469,7 @@ input[type=text], select {
     #section1{
         background-image: url('https://i.postimg.cc/L6q8Rrw5/wp4004539-indian-air-force-wallpapers.jpg');
         background-size: 100% 100%;
-        width: 429px;
+        width: 100%;
         height: 400px;
         
         animation: slider 9s infinite linear;
@@ -493,7 +493,7 @@ input[type=text], select {
         margin: 0;    
     }
     .drdo{
-        width: 427px;
+        width: 100%;
         height: 100%;
         margin-top: 0px;
         color: black;
@@ -517,7 +517,7 @@ input[type=text], select {
     
     .services{
         background:rgb(199, 197, 218);
-        width: 431px;
+        width: 100%;
         
     }
     #section4{
