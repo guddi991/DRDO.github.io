@@ -600,10 +600,10 @@ input[type=text], select {
         padding: 2px;
         padding-top: 0%;
         background-color: steelblue;
-         visibility: hidden;
+        visibility: hidden;
        
      }
-     h1{
+     .about h1{
         text-shadow: 4px 2px maroon;
         color: black;
          
