@@ -596,6 +596,7 @@ input[type=text], select {
        background:rgb(96, 124, 154, .7);
        color: black;
        padding: 2px;
+       margin: 0;
      
        position: relative;
        top: 0px; 
