@@ -583,7 +583,7 @@ input[type=text], select {
     #section2{
         display: inline-block;
         height: auto;
-        width: 100%;
+        width: auto;
         background: url("https://i.postimg.cc/P5n1YrzB/IT4-Eh6-L-indian-air-force-wallpapers.jpg")no-repeat;
         background-size: cover;
         background-position: center;
@@ -623,8 +623,8 @@ input[type=text], select {
     
     #section5{
         display: inline-block;
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
         background: url("https://i.postimg.cc/xdv2QkSH/m6-Bh-REu-minimalist-wallpapers.jpg")no-repeat;
         background-size: 100% 100%;
         background-position: 0%;
