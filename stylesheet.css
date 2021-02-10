@@ -495,7 +495,7 @@ input[type=text], select {
     }
     #section3{
         background-image: none;
-        background-color:  rgb(224, 111, 111);
+        background-color: rgb(96, 124, 154, .7);
     }
     .drdo{
         width: 100%;
@@ -505,7 +505,7 @@ input[type=text], select {
         text-align: center;
         padding: 2px;
         padding-top: 0%;
-        background-color: steelblue;
+        background-color: rgb(96, 124, 154, .7);
        
      }
      h1{
