@@ -589,6 +589,9 @@ input[type=text], select {
         background-position: center;
      
     }
+    #section2{
+        background-image: none;
+    }
     .about{
        width: auto;
        height: 160px;
