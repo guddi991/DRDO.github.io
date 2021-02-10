@@ -490,14 +490,11 @@ input[type=text], select {
         width: 100%;
         background: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
         background-size: 100% 100%;
-        margin: 0;    
-        display: flex;
-        flex-direction: row;
-        
+        margin: 0;      
     }
     .drdo{
         width: 100%;
-        height: 100%;
+        height: 402px;
         margin-top: 0px;
         color: black;
         text-align: center;
