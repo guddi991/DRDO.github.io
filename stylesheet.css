@@ -488,8 +488,8 @@ input[type=text], select {
         display: inline-block;
         height: 402px;
         width: 100%;
+        background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
         background-image: none;
-        background-size: 100% 100%;
         margin: 0;      
     }
     .drdo{
