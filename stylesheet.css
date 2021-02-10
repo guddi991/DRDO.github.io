@@ -489,8 +489,11 @@ input[type=text], select {
         height: 402px;
         width: 100%;
         background-image: url('https://i.postimg.cc/MHpxTVYn/drdo4.jpg')no-repeat;
-        background-image: none;
+       
         margin: 0;      
+    }
+    #section3{
+        background-image: none;
     }
     .drdo{
         width: 100%;
