@@ -626,7 +626,7 @@ input[type=text], select {
         height: 100%;
         width: 100%;
         background: url("https://i.postimg.cc/xdv2QkSH/m6-Bh-REu-minimalist-wallpapers.jpg")no-repeat;
-        background-size: cover;
+        background-size: 100%, 100%;
         background-position: 0%;
     }
     
@@ -637,7 +637,7 @@ input[type=text], select {
         position: relative;
         left: 50%;
         right: 50%;
-        width: 400px;
+        width: 350px;
         background: rgb(96, 124, 154, .8);
         border-radius: 10px;
     
