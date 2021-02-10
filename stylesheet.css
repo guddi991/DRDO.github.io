@@ -419,7 +419,7 @@ input[type=text], select {
         display: none;
     }
     
-    .rainbow-text{
+    .rainbow-text h1{
         text-align: center;
         color: steelblue;
         text-shadow: 1px 1px black;
